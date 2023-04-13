@@ -5,43 +5,43 @@ export default {
         return{
             menuItems: [
         {
-          title: "comics",
+          title: "CHARACTERS",
           link: "#"
         },
         {
-          title: "comics",
+          title: "COMICS",
           link: "#"
         },
         {
-          title: "comics",
+          title: "MOVIES",
           link: "#"
         },
         {
-          title: "comics",
+          title: "TV",
           link: "#"
         },
         {
-          title: "comics",
+          title: "GAMES",
           link: "#"
         },
         {
-          title: "comics",
+          title: "COLLECTIBLES",
           link: "#"
         },
         {
-          title: "comics",
+          title: "VIDEOS",
           link: "#"
         },
         {
-          title: "comics",
+          title: "FANS",
           link: "#"
         },
         {
-          title: "comics",
+          title: "NEWS",
           link: "#"
         },
         {
-          title: "comics",
+          title: "SHOP",
           link: "#"
         }
       ],

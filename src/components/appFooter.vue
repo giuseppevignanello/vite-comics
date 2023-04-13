@@ -56,19 +56,19 @@ export default {
           link: "#"
         },
         {
-          icon: "src/assets/img/footer-facebook.png",
+          icon: "src/assets/img/footer-periscope.png",
           link: "#"
         },
         {
-          icon: "src/assets/img/footer-facebook.png",
+          icon: "src/assets/img/footer-pinterest.png",
           link: "#"
         },
         {
-          icon: "src/assets/img/footer-facebook.png",
+          icon: "src/assets/img/footer-twitter.png",
           link: "#"
         },
         {
-          icon: "src/assets/img/footer-facebook.png",
+          icon: "src/assets/img/footer-youtube.png",
           link: "#"
         },
       ]
