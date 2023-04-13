@@ -1,0 +1,26 @@
+@use "/node_modules/bootstrap/scss/bootstrap.scss"; 
+@use"./partial/variables.scss" as *;
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: $light;
+    height: 100px;
+
+    .logo {
+        img {
+            height: 50px
+        }
+    }
+}
+
+main {
+    height: 120px;
+    background-color: $darker;
+}
