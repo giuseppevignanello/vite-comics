@@ -21,6 +21,11 @@ header {
 }
 
 main {
-    height: 120px;
     background-color: $darker;
+    #content {
+          height: 120px;
+    }
+    #band {
+        background-color: $primary;
+    }
 }

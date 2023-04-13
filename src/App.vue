@@ -5,44 +5,66 @@ export default {
       menuItems: [
         {
           title: "comics",
-          link:  "#"
-        }, 
-        {
-          title: "comics",
-          link:  "#"
+          link: "#"
         },
         {
           title: "comics",
-          link:  "#"
+          link: "#"
         },
         {
           title: "comics",
-          link:  "#"
+          link: "#"
         },
         {
           title: "comics",
-          link:  "#"
+          link: "#"
         },
         {
           title: "comics",
-          link:  "#"
+          link: "#"
         },
         {
           title: "comics",
-          link:  "#"
+          link: "#"
         },
         {
           title: "comics",
-          link:  "#"
+          link: "#"
         },
         {
           title: "comics",
-          link:  "#"
+          link: "#"
         },
         {
           title: "comics",
-          link:  "#"
+          link: "#"
+        },
+        {
+          title: "comics",
+          link: "#"
         }
+      ],
+      bandItems: [
+        {
+          img: "./assets/img/buy-comics-digital-comics.png",
+          title: "DIGITAL COMICS"
+        },
+        {
+          img: "./assets/img/buy-comics-digital-comics.png",
+          title: "DIGITAL COMICS"
+        },
+        {
+          img: "./assets/img/buy-comics-digital-comics.png",
+          title: "DIGITAL COMICS"
+        },
+        {
+          img: "./assets/img/buy-comics-digital-comics.png",
+          title: "DIGITAL COMICS"
+        },
+        {
+          img: "./assets/img/buy-comics-digital-comics.png",
+          title: "DIGITAL COMICS"
+        },
       ]
 
     }
@@ -57,8 +79,8 @@ export default {
     </div>
     <div class="menu">
       <ul class="row">
-        <li class="col" v-for ="item in menuItems">
-          <a :href="item.link">{{item.title }}</a>
+        <li class="col" v-for="item in menuItems">
+          <a :href="item.link">{{ item.title }}</a>
         </li>
       </ul>
     </div>
@@ -67,9 +89,13 @@ export default {
     <div id="content" class="container">
       <h2 class="text-white pt-4">Content goes here</h2>
     </div>
+    <img src="" alt="">
     <div id="band">
-      <div class="icon">
-        <img src="./assets/img/buy-comics-digital-comics.png" alt="">
+      <div class="container d-flex">
+        <div v-for="item in bandItems" class="icon">
+          <img src="" alt="">
+          <h6 class="text-white">{{ item.title }}</h6>
+        </div>
       </div>
     </div>
   </main>
