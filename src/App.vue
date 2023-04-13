@@ -112,6 +112,28 @@ export default {
             "Lorem",
           ]
         },
+      ], 
+      socials: [
+        {
+          icon: "./assets/img/footer-facebook.png",
+          link: "#"
+        },
+        {
+          icon: "./assets/img/footer-facebook.png",
+          link: "#"
+        },
+        {
+          icon: "./assets/img/footer-facebook.png",
+          link: "#"
+        },
+        {
+          icon: "./assets/img/footer-facebook.png",
+          link: "#"
+        },
+        {
+          icon: "./assets/img/footer-facebook.png",
+          link: "#"
+        },
       ]
 
     }
@@ -126,7 +148,7 @@ export default {
     </div>
     <div class="menu">
       <ul class="row">
-        <li class="col" v-for="item in MenuItems">
+        <li class="col" v-for="item in menuItems">
           <a :href="item.link">{{ item.title }}</a>
         </li>
       </ul>
@@ -165,7 +187,20 @@ export default {
     </div>
 
     <div id="bottom_footer">
-
+      <div class="container d-flex justify-content-between">
+        <button class="btn">
+          SIGN UP NOW
+        </button>
+        <ul class="social d-flex">
+          <li>Follow US</li>
+          <li v-for="social in socials">
+            <a :href="social.link">
+              <img :src="social.icon" alt="">
+            </a>
+          </li>
+          
+        </ul>
+      </div>
     </div>
 
   </footer>
