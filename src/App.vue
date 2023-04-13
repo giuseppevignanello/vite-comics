@@ -11,23 +11,23 @@ export default {
      
       bandItems: [
         {
-          img: "./assets/img/buy-comics-digital-comics.png",
+          img: "src/assets/img/buy-comics-digital-comics.png",
           title: "DIGITAL COMICS"
         },
         {
-          img: "./assets/img/buy-comics-digital-comics.png",
+          img: "src/assets/img/buy-comics-digital-comics.png",
           title: "DIGITAL COMICS"
         },
         {
-          img: "./assets/img/buy-comics-digital-comics.png",
+          img: "src/assets/img/buy-comics-digital-comics.png",
           title: "DIGITAL COMICS"
         },
         {
-          img: "./assets/img/buy-comics-digital-comics.png",
+          img: "src/assets/img/buy-comics-digital-comics.png",
           title: "DIGITAL COMICS"
         },
         {
-          img: "./assets/img/buy-comics-digital-comics.png",
+          img: "src/assets/img/buy-comics-digital-comics.png",
           title: "DIGITAL COMICS"
         },
       ],
@@ -80,19 +80,19 @@ export default {
       ], 
       socials: [
         {
-          icon: "./assets/img/footer-facebook.png",
+          icon: "src/assets/img/footer-facebook.png",
           link: "#"
         },
         {
-          icon: "./assets/img/footer-facebook.png",
+          icon: "src/assets/img/footer-facebook.png",
           link: "#"
         },
         {
-          icon: "./assets/img/footer-facebook.png",
+          icon: "src/assets/img/footer-facebook.png",
           link: "#"
         },
         {
-          icon: "./assets/img/footer-facebook.png",
+          icon: "src/assets/img/footer-facebook.png",
           link: "#"
         },
         {
@@ -116,7 +116,7 @@ export default {
     <div id="band">
       <div class="container d-flex">
         <div v-for="item in bandItems" class="icon">
-          <img src="" alt="">
+          <img :src="item.img" alt="">
           <h6 class="text-white">{{ item.title }}</h6>
         </div>
       </div>

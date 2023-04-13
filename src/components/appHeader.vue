@@ -50,7 +50,6 @@ export default {
 }
 </script>
 <template>
-
 <header class="container d-flex justify-content-between py-3 align-items-center">
     <div class="logo">
       <img src="../assets/img/dc-logo.png" alt="">
