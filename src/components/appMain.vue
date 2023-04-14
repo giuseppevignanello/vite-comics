@@ -1,9 +1,9 @@
 <script>
-import comicList from "./comicsList.vue"
+import comicsList from "./comicsList.vue"
 export default {
   name: "appMain",
   components: {
-    comicList
+    comicsList
   },
   data() {
     return {
@@ -43,7 +43,7 @@ export default {
 
 <template>
   <main>
-   <comicList/>
+   <comicsList/>
     <div id="band">
       <div class="container d-flex justify-content-between align-items-center">
         <div v-for="item in bandItems" class="icon d-flex align-items-center py-4">
