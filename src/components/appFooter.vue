@@ -1,55 +1,127 @@
 <script>
 export default {
-    name: "appMain",
-    data(){
-        return {            
-      footerMenuItems:[
+  name: "appMain",
+  data() {
+    return {
+      footerMenuItems: [
         {
           title: "DC COMICS",
           items: [
-            "Lorem",
-            "Lorem",
-            "Lorem",
-            "Lorem",
-            "Lorem",
-            "Lorem",
-            "Lorem",
+            {
+              title: "Characthers",
+              link: "#"
+            },
+            {
+              title: "Comics",
+              link: "#"
+            },
+            {
+              title: "Movies",
+              link: "#"
+            },
+            {
+              title: "TV",
+              link: "#"
+            },
+            {
+              title: "Games",
+              link: "#"
+            },
+            {
+              title: "Video",
+              link: "#"
+            },
+            {
+              title: "News",
+              link: "#"
+            }
           ]
         },
         {
-          title: "DC COMICS",
+          title: "DC",
           items: [
-            "Lorem",
-            "Lorem",
-            "Lorem",
-            "Lorem",
-            "Lorem",
-            "Lorem",
-            "Lorem",
-            "Lorem",
-            "Lorem",
-            "Lorem",
+            {
+              title: "Terms of Use",
+              link: "#"
+            },
+            {
+              title: "Privacy policy(New)",
+              link: "#"
+            },
+            {
+              title: "Ad Choices",
+              link: "#"
+            },
+            {
+              title: "Advertising",
+              link: "#"
+            },
+            {
+              title: "Jobs",
+              link: "#"
+            },
+            {
+              title: "Subscription",
+              link: "#"
+            },
+            {
+              title: "Talent Workshops",
+              link: "#"
+            },
+            {
+              title: "CPSC Certificates",
+              link: "#"
+            },
+            {
+              title: "Shop Help",
+              link: "#"
+            },
+            {
+              title: "Contact Us",
+              link: "#"
+            }
           ]
         },
         {
-          title: "DC COMICS",
+          title: "SITES",
           items: [
-            "Lorem",
-            "Lorem",
-            "Lorem",
-            "Lorem",
-            "Lorem",
+            {
+              title: "DC",
+              link: "#"
+            },
+            {
+              title: "MAD MAGAZINE",
+              link: "#"
+            },
+            {
+              title: "DC Kids",
+              link: "#"
+            },
+            {
+              title: "DC Universe",
+              link: "#"
+            },
+            {
+              title: "DC Power VISA",
+              link: "#"
+            }
           ]
         },
         {
-          title: "DC COMICS",
+          title: "Shop",
           items: [
-            "Lorem",
-            "Lorem",
-            "Lorem",
+            {
+              title: "Shop DC",
+              link: "#"
+            },
+            {
+              title: "Shop DC Collectibles",
+              link: "#"
+            }
+
           ]
         },
-      ], 
+      ],
       socials: [
         {
           icon: "src/assets/img/footer-facebook.png",
@@ -73,22 +145,26 @@ export default {
         },
       ]
 
-        }
-  
     }
+
+  }
 }
 </script>
 
-<template> 
-<footer>
+<template>
+  <footer>
     <div id="top_footer">
       <div class="container d-flex">
         <div class="menu d-flex">
           <ul v-for="item in footerMenuItems">
-            <li><h5>{{ item.title }}</h5></li>
-            <li v-for="itemList in item.items">{{itemList}}</li>
-            
-        
+            <li>
+              <h5>{{ item.title }}</h5>
+            </li>
+            <li v-for="itemList in item.items">
+              <a :href="itemList.link">{{ itemList.title }}</a>
+            </li>
+
+
           </ul>
 
         </div>
@@ -110,10 +186,9 @@ export default {
               <img :src="social.icon" alt="">
             </a>
           </li>
-          
+
         </ul>
       </div>
     </div>
 
-  </footer>
-</template> 
+</footer></template> 
