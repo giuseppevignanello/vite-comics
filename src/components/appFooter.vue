@@ -155,7 +155,7 @@ export default {
   <footer>
     <div id="top_footer">
       <div class="container d-flex">
-        <div class="menu d-flex">
+        <div class="menu d-flex flex-wrap row-cols-3">
           <ul v-for="item in footerMenuItems">
             <li>
               <h5 class="title">{{ item.title }}</h5>

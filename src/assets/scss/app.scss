@@ -1,5 +1,8 @@
 @use "/node_modules/bootstrap/scss/bootstrap.scss"; 
 @use"./partial/variables.scss" as *;
+@use"./partial/header.scss";
+@use"./partial/main.scss";
+@use"./partial/footer.scss";
 
 li {
     list-style: none;
@@ -10,56 +13,5 @@ a {
     color: $text;
 }
 
-header {
-    background-color: $light;
-    height: 100px;
 
-    .logo {
-        img {
-            height: 50px
-        }
-    }
-}
 
-main {
-    background-color: $darker;
-    #content {
-          height: 120px;
-    }
-    #band {
-        background-color: $primary;
-        .icon {
-            img {
-                height: 40px
-            }
-        }
-    }
-}
-
-footer {
-    #top_footer {
-        background-image: url(../img/footer-bg.jpg), url(../img/dc-logo-bg.png);
-        background-position: left top, bottom rightno;
-        .title {
-            color: $light;
-        }
-        a{
-            color: $text;
-        }
-    }
-    #bottom_footer {
-        background-color: $dark;
-        .sign_up_btn {
-            background-color: transparent;
-            border: 1px solid $primary;
-            height: 50%;
-            margin: auto 0;
-            font-size: 12px;
-        }
-        .follow_us_btn {
-            background-color: transparent;
-            border: none;
-            color: $primary;
-        }
-    }
-}

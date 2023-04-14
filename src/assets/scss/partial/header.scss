@@ -1,0 +1,12 @@
+@use"./variables.scss" as *;
+
+header {
+    background-color: $light;
+    height: 100px;
+
+    .logo {
+        img {
+            height: 50px
+        }
+    }
+}

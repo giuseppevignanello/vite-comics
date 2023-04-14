@@ -1,0 +1,26 @@
+@use"./variables.scss" as *;
+
+footer {
+    #top_footer {
+        background-image: url(../img/footer-bg.jpg), url(../img/dc-logo-bg.png);
+        background-position: left top, bottom rightno;
+        .title {
+            color: $light;
+        }
+    }
+    #bottom_footer {
+        background-color: $dark;
+        .sign_up_btn {
+            background-color: transparent;
+            border: 1px solid $primary;
+            height: 50%;
+            margin: auto 0;
+            font-size: 12px;
+        }
+        .follow_us_btn {
+            background-color: transparent;
+            border: none;
+            color: $primary;
+        }
+    }
+}

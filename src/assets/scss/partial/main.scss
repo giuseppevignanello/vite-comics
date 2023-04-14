@@ -1,0 +1,16 @@
+@use"./variables.scss" as *;
+
+main {
+    background-color: $darker;
+    #content {
+          height: 120px;
+    }
+    #band {
+        background-color: $primary;
+        .icon {
+            img {
+                height: 40px
+            }
+        }
+    }
+}
