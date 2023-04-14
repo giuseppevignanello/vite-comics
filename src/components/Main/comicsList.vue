@@ -1,6 +1,6 @@
 <script>
 import singleComic from "./singleComic.vue"
-import comics from "../data/comics.js"
+import comics from "../../data/comics"
 export default {
     components: {
         singleComic,

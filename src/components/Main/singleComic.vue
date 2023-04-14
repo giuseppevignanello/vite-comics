@@ -18,7 +18,7 @@ export default {
         <div class="image">
             <img :src="thumb" :alt="series">
         </div>
-        <h6>{{ series }}</h6>
+        <h6>{{series}}</h6>
 
         <span class="d-block">{{ type }}</span>
         <span class="d-block">{{ price }}</span>
