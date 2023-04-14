@@ -124,29 +124,34 @@ export default {
       ],
       socials: [
         {
-          icon: "src/assets/img/footer-facebook.png",
+          icon: "footer-facebook.png",
           link: "#"
         },
         {
-          icon: "src/assets/img/footer-periscope.png",
+          icon: "footer-periscope.png",
           link: "#"
         },
         {
-          icon: "src/assets/img/footer-pinterest.png",
+          icon: "footer-pinterest.png",
           link: "#"
         },
         {
-          icon: "src/assets/img/footer-twitter.png",
+          icon: "footer-twitter.png",
           link: "#"
         },
         {
-          icon: "src/assets/img/footer-youtube.png",
+          icon: "footer-youtube.png",
           link: "#"
         },
       ]
 
     }
   }, 
+  methods: {
+   getImageUrl(name) {
+  return new URL(`../assets/img/${name}`, import.meta.url).href
+} 
+}
 }
 </script>
 
@@ -182,7 +187,7 @@ export default {
           <ul class="social d-flex mt-3">
             <li v-for="social in socials" class="me-2">
               <a :href="social.link">
-                <img :src="social.icon" alt="">
+                <img :src="getImageUrl(social.icon)" alt="">
               </a>
             </li>
 
