@@ -41,9 +41,12 @@ export default {
       <div class="container d-flex justify-content-between align-items-center">
         <div v-for="item in bandItems" class="icon d-flex align-items-center py-5">
           <img :src="item.img" alt="">
-          <h6 class="text-white ms-3">{{ item.title }}</h6>
+          <span class="text-white ms-3">{{ item.title }}</span>
         </div>
       </div>
     </div>
   </main>
 </template> 
+
+<style scoped lang="scss">
+</style>

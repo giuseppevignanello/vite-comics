@@ -158,7 +158,7 @@ export default {
         <div class="menu d-flex">
           <ul v-for="item in footerMenuItems">
             <li>
-              <h5>{{ item.title }}</h5>
+              <h5 class="title">{{ item.title }}</h5>
             </li>
             <li v-for="itemList in item.items">
               <a :href="itemList.link">{{ itemList.title }}</a>
@@ -168,27 +168,29 @@ export default {
           </ul>
 
         </div>
-        <div class="logo">
-          <img src="../assets/img/dc-logo-bg.png" alt="">
-        </div>
       </div>
     </div>
 
     <div id="bottom_footer">
-      <div class="container d-flex justify-content-between">
-        <button class="btn">
-          SIGN UP NOW
+      <div class="container d-flex justify-content-between py-3">
+        <button class="sign_up_btn text-white p-2">
+          SIGN UP NOW!
         </button>
-        <ul class="social d-flex">
-          <li>Follow US</li>
-          <li v-for="social in socials">
-            <a :href="social.link">
-              <img :src="social.icon" alt="">
-            </a>
-          </li>
+        <div id="bottom_footer_right" class="d-flex align-items-center">
+          <button class="follow_us_btn pe-1">
+            <strong> FOLLOW US </strong>
+          </button>
+          <ul class="social d-flex mt-3">
+            <li v-for="social in socials" class="me-2">
+              <a :href="social.link">
+                <img :src="social.icon" alt="">
+              </a>
+            </li>
 
-        </ul>
+          </ul>
+        </div>
       </div>
     </div>
 
-</footer></template> 
+  </footer>
+</template> 
