@@ -14,7 +14,7 @@ export default {
 </script>
 
 <template>
-    <div class="col-2 text-center text-white mt-4">
+    <div class="col-6 col-sm-4 col-md-3 col-lg-2 text-center text-white mt-4">
         <div class="image">
             <img :src="thumb" :alt="series">
         </div>
