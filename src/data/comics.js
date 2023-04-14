@@ -31,43 +31,43 @@ export default
       "type": "comic book"
     },
     {
-      "thumb": "https://static.wikia.nocookie.net/marvel_dc/images/5/50/Batman_Beyond_v.1_1.jpg/revision/latest?cb=20080809201655",
+      "thumb": "https://comic-watch.com/wp-content/uploads/2018/02/ah1001.jpg",
       "price": "$2.99",
-      "series": "Batman Beyond",
+      "series": "Black Lighting",
       "type": "comic book"
     },
     {
-      "thumb": "https://static.wikia.nocookie.net/marvel_dc/images/0/0d/Batman_Superman_Vol_1_1.jpg/revision/latest/scale-to-width-down/1200?cb=20130627211607",
+      "thumb": "https://wordery.com/jackets/8f338b73/dc-comics-classics-library-gardner-fox-9781401222987.jpg",
       "price": "$3.99",
-      "series": "Batman/Superman",
+      "series": "The flash of two worlds",
       "type": "comic book"
     },
     {
-      "thumb": "https://static.wikia.nocookie.net/marvel_dc/images/c/cf/Batman_Superman_Annual_Vol_2_1.jpg/revision/latest?cb=20200929145132",
+      "thumb": "https://i0.wp.com/batman-news.com/wp-content/uploads/2020/09/Batman-Superman-Annual-1.jpg?fit=696%2C1070&quality=80&strip=info&ssl=1",
       "price": "$4.99",
       "series": "Batman/Superman Annual",
       "type": "comic book"
     },
     {
-      "thumb": "https://static.wikia.nocookie.net/marvel_dc/images/5/54/Batman_The_Joker_War_Zone_Vol_1_1.jpg/revision/latest?cb=20200929124651",
+      "thumb": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/41nGyVF7C2L.jpg",
       "price": "$5.99",
       "series": "Batman: The Joker War Zone",
       "type": "comic book"
     },
     {
-      "thumb": "https://static.wikia.nocookie.net/marvel_dc/images/6/64/Batman_Three_Jokers_Collected.jpg/revision/latest?cb=20201123054610",
+      "thumb": "https://m.media-amazon.com/images/I/91wWOz7QoPS.jpg",
       "price": "$6.99",
       "series": "Batman: Three Jokers",
       "type": "comic book"
     },
     {
-      "thumb": "https://static.wikia.nocookie.net/marvel_dc/images/f/f8/Batman_White_Knight_Presents_Harley_Quinn_Vol_1_1.jpg/revision/latest?cb=20201124094800",
+      "thumb": "https://www.sellmycomicbooks.com/images/harley-quinn-1-2000.jpg",
       "price": "$4.99",
       "series": "Batman: White Knight Presents: Harley Quinn",
       "type": "comic book"
     },
     {
-      "thumb": "https://static.wikia.nocookie.net/marvel_dc/images/c/c8/Catwoman_Vol_2_1.jpg/revision/latest?cb=20160303223223",
+      "thumb": "https://m.media-amazon.com/images/I/A1Dk+x8YhHL.jpg",
       "price": "$16.99",
       "series": "Catwoman",
       "type": "graphic novel"

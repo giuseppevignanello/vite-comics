@@ -14,7 +14,7 @@ export default {
 </script>
 
 <template>
-    <div class="col-2 text-center text-white">
+    <div class="col-2 text-center text-white mt-4">
         <div class="image">
             <img :src="thumb" :alt="series">
         </div>
@@ -27,6 +27,10 @@ export default {
 
 <style lang="scss" scoped>
 .col-2 {
+    &:hover {
+        cursor: pointer;
+        scale: 1.1 
+    }
     img {
         height: 200px;
     }
