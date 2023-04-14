@@ -1,9 +1,9 @@
 <script>
 export default {
-    name: "appHeader",
-    data(){
-        return{
-            menuItems: [
+  name: "appHeader",
+  data() {
+    return {
+      menuItems: [
         {
           title: "CHARACTERS",
           link: "#"
@@ -45,12 +45,12 @@ export default {
           link: "#"
         }
       ],
-        }
     }
+  }
 }
 </script>
 <template>
-<header class="container d-flex justify-content-between py-3 align-items-center">
+  <header class="container d-flex justify-content-between py-3 align-items-center">
     <div class="logo">
       <img src="../assets/img/dc-logo.png" alt="">
     </div>
@@ -62,8 +62,10 @@ export default {
       </ul>
     </div>
   </header>
+  <section class="jumbotron">
+   
+  </section>
 </template>
 
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>
