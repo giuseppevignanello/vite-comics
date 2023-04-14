@@ -63,7 +63,7 @@ export default {
     </div>
   </header>
   <section class="jumbotron">
-   
+
   </section>
 </template>
 

@@ -4,6 +4,10 @@
 @use"./partial/main.scss";
 @use"./partial/footer.scss";
 
+img {
+    max-width: 100%;
+}
+
 li {
     list-style: none;
 }
