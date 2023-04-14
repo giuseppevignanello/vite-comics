@@ -38,10 +38,10 @@ export default {
     </div>
     <img src="" alt="">
     <div id="band">
-      <div class="container d-flex">
-        <div v-for="item in bandItems" class="icon">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div v-for="item in bandItems" class="icon d-flex align-items-center py-5">
           <img :src="item.img" alt="">
-          <h6 class="text-white">{{ item.title }}</h6>
+          <h6 class="text-white ms-3">{{ item.title }}</h6>
         </div>
       </div>
     </div>
