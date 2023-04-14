@@ -3,6 +3,7 @@ export default {
   name: "appHeader",
   data() {
     return {
+      activeMenuItem: -1,
       menuItems: [
         {
           title: "CHARACTERS",
@@ -46,6 +47,12 @@ export default {
         }
       ],
     }
+  }, 
+  methods: {
+    activeMenu(index) {
+      this.activeMenuItem = index; 
+
+    }
   }
 }
 </script>
@@ -56,7 +63,7 @@ export default {
     </div>
     <div class="menu">
       <ul class="row">
-        <li class="col" v-for="item in menuItems">
+        <li @click="activeMenu(index)" class="col" :class="index ===activeMenuItem ? 'active' : ''" v-for="(item, index) in menuItems">
           <a :href="item.link">{{ item.title }}</a>
         </li>
       </ul>
@@ -68,4 +75,8 @@ export default {
 </template>
 
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.active {
+  background-color: lightgray;
+}
+</style>
