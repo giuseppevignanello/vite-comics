@@ -157,7 +157,7 @@ export default {
 
 <template>
   <footer>
-    <div id="top_footer">
+    <div id="top_footer" class="py-5">
       <div class="container d-flex">
         <div class="menu d-flex flex-wrap row-cols-3">
           <ul v-for="item in footerMenuItems">

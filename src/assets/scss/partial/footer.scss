@@ -2,10 +2,13 @@
 
 footer {
     #top_footer {
-        background-image: url(../img/footer-bg.jpg), url(../img/dc-logo-bg.png);
-        background-position: left top, bottom rightno;
+        background-image: url(../img/dc-logo-bg.png), url(../img/footer-bg.jpg),;
+        background-repeat: no-repeat, no-repeat;
+        background-position: right, left;
+
+
         .title {
-            color: $light;
+        color: $light;
         }
     }
     #bottom_footer {
