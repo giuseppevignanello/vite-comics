@@ -15,7 +15,7 @@ export default {
 </script>
 
 <template>
-    <div id="content" class="container">
+    <div id="content" class="container py-5">
         <div class="row">
             <singleComic v-for="singleComic in comics" :thumb="singleComic.thumb" :series="singleComic.series" :price="singleComic.price" :type="singleComic.type"/>
         </div>

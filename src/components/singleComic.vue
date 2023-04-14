@@ -4,7 +4,7 @@ export default {
     props: {
         thumb: String,
         price: String,
-        series: String, 
+        series: String,
         type: String
     },
     data() {
@@ -15,13 +15,20 @@ export default {
 
 <template>
     <div class="col-2 text-center text-white">
-        <img :src="thumb" :alt="series">
-        <h5>{{series}}</h5>
-        <span class="d-block">{{type}}</span>
-        <span class="d-block">{{price}}</span>
+        <div class="image">
+            <img :src="thumb" :alt="series">
+        </div>
+        <h6>{{ series }}</h6>
+
+        <span class="d-block">{{ type }}</span>
+        <span class="d-block">{{ price }}</span>
     </div>
 </template>
 
 <style lang="scss" scoped>
-
+.col-2 {
+    img {
+        height: 200px;
+    }
+}
 </style>
