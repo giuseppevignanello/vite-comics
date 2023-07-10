@@ -26,7 +26,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-.col-2 {
+.col-6 {
     &:hover {
         cursor: pointer;
         scale: 1.1 
